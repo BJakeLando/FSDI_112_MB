@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About Me{% endblock %}
+
+
+{% block content %}
+<h1>Brandon Landers</h1>
+<p>I was born in Sierra Vista, AZ in June of 1993. I spent my childhood and adolescence in Arizona. At 17 I felt the need to serve my country by joining the military. In July of 2011 I swoar into the US Navy as an Aviation Rescue Swimmer. I was able to make it through the rigorous training that took about 2 years to finish. After finishing my 6 year enlistment contract I decided to get out and moved back to Tucson, AZ. I spent 4 years there and decided that I wanted to come back to San Diego where I lived when I was in the Navy. Now I'm here pursuing my new dream of becoming a software developer.</p>
+
+<div class="aboutPic" >
+    <img src="{% static 'img/about.jpg' %}" >
+</div>
+
+{% endblock content %}
